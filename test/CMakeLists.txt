@@ -8,6 +8,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
-add_executable(VUtilsTest Vec3Test.cpp)
+add_executable(VUtilsTest Utils.cpp)
 target_link_libraries(VUtilsTest PUBLIC VUtils PRIVATE Catch2::Catch2WithMain)
 target_include_directories(VUtilsTest PUBLIC VMath)

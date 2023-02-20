@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(test)
 
 add_library(VUtils INTERFACE)
-target_include_directories(VUtils PUBLIC include)
+target_include_directories(VUtils INTERFACE include)
